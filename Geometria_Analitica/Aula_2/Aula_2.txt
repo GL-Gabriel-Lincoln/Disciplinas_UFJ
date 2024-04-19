@@ -1,0 +1,165 @@
+A reta
+
+Números inteiros: 
+
+Os números 1, 2, 3, 4, ... são chamados de números naturais e tal conjunto de números será denotado por ℕ
+
+Com o simbolo Z indicaremos o conjunto dos números inteiros que são ..... -3, -2, -1, 0, 1, 2, 3, ...
+
+Representação gráfica
+
+.imagem1
+
+Números Racionais:
+
+Os números que podem ser escritos na forma P/Q, onde p e q são inteiros e q é diferente de 0 
+são chamados de números racionais e tal conjunto é denotado por ℚ
+
+.imagem2
+
+Números irracionais:
+
+.imagem3
+
+O comprimento da diagonal de um quadrado cujo lado mede uma unidade, é um número que pode ser marcado na reta R e pelo teorema de Pitagoras
+este número é sqrt(2)
+
+Exemplo: Mostre que P² é par, p E Z, então p é par.
+
+Solução:
+Primeiro mostremos que o produto de dois números ímpares é ímpar
+
+Sejam x e y números ímpares e portanto existem m, n E Z tais que
+
+x = 2n+1 e y = 2.m+1
+
+assim x . y = (2n + 1) . (2m + 1)
+
+            = 4n.m + 2n + 2m + 1
+
+            = 2.(2nm + n + m) + 1   -  ax + ab = a .(x + b)
+
+e portando x . y é um número ímpar.
+
+Agora se p² é par, p não pode ser ímpar, uma vez que se p fosse ímpar, P.P = P² seria ímpar, o que não ocorre por hipótese.
+
+Exemplo: Mostre que sqrt(2) não é racional
+
+Suponha que existam p, q E Z tais que
+
+sqrt(2) = p/q , com p/q na forma irredutivel.
+
+então 2 = p²/q²
+
+p² = 2q²
+
+Dessa forma, segue que p² é par e pelo exemplo anterior p é par
+
+sendo p par, existe K E Z tal que 
+p = 2K
+
+Assim 
+
+(2k)² = 2q² => 4k² = 2q² => 2k² = q²
+
+Portanto q² é par e consequentemente q é par
+
+Assim p, q são inteiros pares e portanto p/q não está na forma irredutivel, o que é uma Contradição
+
+Exercicio: Seja m E Z, com M diferente de 0. Mostre que n.sqrt(2) não pertence ℚ
+
+Números Reais:
+
+O conjunto de todos os números racionais e irracionais é chamado o conjunto dos números reais e indicado por R
+
+.imagem4
+
+A definição de número irracional bem como sua construção, em geral é apresentada em livros de Análise Matemática
+Para o proposito de Geometria de Analítica é suficiente o seguinte resultado:
+
+A cada ponto da reta R corresponde um único número (racional ou irracional)
+
+Valor Absoluto:
+
+Se X é um numero real, o módulo de x (ou valor absoluto) de x é o número |x| definido por :
+
+|x| = { x se x >= 0} 
+      {-x se x < 0}
+
+Exemplo:
+
+|-5| = -(-5) => |-5| = 5
+
+|2| = 2
+
+|-150| = -(-150) = |-150| = 150
+
+Interpretação Geometrica:
+
+Geometricamente |x| pode ser interpretado como sendo a distância do ponto P, 
+                                                               __
+correspondente a x, à origem, isto é o comprimento de segmento OP 
+
+.imagem5
+
+Decorre imediatamente da definição que:
+
+|x| >= 0
+
+|x| = 0 <=> x = 0
+
+|x| = |-x|
+
+Proposição: quaisquer que sejam os números reais a, b e x, tem se:
+
+1. |ab| = |a|.|b|
+2. |a+b| <= |a| + |b|
+3. Se a > 0, |x| <= a <=> -a < x < a
+4. sqrt(x²) = |x|
+
+Demonstração:
+
+a <= |a|
+
+(a+b)² = a² + 2ab + b²
+
+a² = |a|²
+
+a < b 
+
+sqrt(a) < srqt(b)
+
+(2) Sejam a, b E R, então 
+
+(a+b)² = a² + 2ab + b²
+
+(|a|+|b|)² = |a|² + 2|a||b| + |b|²
+
+Dos extremos segue que:
+(a + b)² <= (|a| + |b|)²
+
+sqrt(a + b)² <= sqrt(|a| + |b|)²
+
+=> |a+b| <= |a| + |b|
+
+
+Proposição: Se a e x são números reais e a > 0, então |x| >= a <=> x > a ou x < -A
+
+.imagem6
+
+Exemplo: Encontre os valores de x para os quais se tem
+
+(a) |3x+4| <= 8
+
+-8 <= 3x + 4 <= 8
+
+-8 - 4 <= 3x + 4 - 4 <= 8 - 4
+
+-12 <= 3x <=  4
+
+-12/3 <= 3x/3 <= 4/3
+
+-4 <= x <= 4/3
+
+
+

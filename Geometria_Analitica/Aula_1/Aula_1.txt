@@ -1,0 +1,66 @@
+Whatsapp: 996440115
+
+Sala 23 Piso Superior
+
+Geogebra
+
+2 Avaliações
+
+Geometria no Plano e Geometria no Espaço
+
+(p1 + p2) * 0.9/2 + NL 0,1
+
+portal do saber obmep
+
+- cordenadas na reta
+
+./cordenadas na reta.png
+
+- distancia entre dois pontos da reta
+
+./distancia entre dois pontos da reta.png
+         __   __
+d(x,y) = OY + OX
+       = -y + x
+       = x - y
+
+Agora sejam X e Y pontos quaisquer da reta real de coordenadas
+x e y respectivamente com x < y
+
+então d(x,y) = y - X
+
+Exemplo: Sejam X e Y ponto da reta real de coordenadas 2 e -3 respectivamente
+Então:
+d(X,Y) = 2 - (-3) = 5
+
+./Exemplo.png
+
+- cordenadas no plano
+
+./cordenadas no plano.png
+
+Exemplo: Plote no plano cartesiano os seguintes pontos:
+
+(2, 0) , (-1, 1)
+(1, -1) , (-1, -1) 
+
+./Exemplo2.png
+
+Distancia entre dois Pontos no Plano
+
+./Distancia entre dois Pontos no Plano.png
+
+A = (x1, y1)
+B = (x2, y2)
+
+./A distância entre dois pontos no plano, dados por A = (x1, y1) e B = (x2, y2).png
+
+Exemplo: Calcule a distancia entre os pontos dados 
+
+(a) A = (1, 5) , B = (-2, -1)
+
+(b) (0, 3) , (-2, -1)
+
+./Exemplo3.png
+
+

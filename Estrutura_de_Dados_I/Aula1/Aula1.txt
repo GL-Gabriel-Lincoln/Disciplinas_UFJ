@@ -1,0 +1,11 @@
+Livro: Algoritmos - Teoria e Prática
+
+cada chave é diferente da outra
+
+Obrigatorio: Search(S,x), Insert(S,x), Delete(S,x)
+
+Complementares: Mínimo(S), Máximo(S), Sucessor(S,x), Predessor(S,x)
+
+
+
+

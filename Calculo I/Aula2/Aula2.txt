@@ -1,0 +1,89 @@
+5. (a²b + ab²) . (a-b/ a² + ab)
+
+((a²b+ab) . (a-b)) / a² + ab
+
+(a³b - a²b² + a²b² - ab³) / a² + ab
+
+(a³b - ab³) / a² + ab
+
+(a(a²b - b³)) / a (a+b)
+
+(b(a² - b²)) / a + b
+
+(b(a - b) . (a+b)) / a + b
+
+b(a - b)
+
+ab - b²
+
+5.3 - 3²
+
+15 - 9
+
+6
+
+Anotação:
+
+A {a,b,c}
+
+a E A
+
+B = {2, 4, 6, ...}
+
+5 não pertence a b
+
+A U b
+
+A intersecção b
+
+O cortado = conjunto vazio
+
+(a, b) =  intervalo aberto
+
+[a,b] = intervalo fechado
+
+[a, infinito), (a, infinito] = intervalo semiaberto
+
+Desigualdades
+
+<
+>
+
+Exemplo 1: 
+
+1 + x < 7x + 5
+
+1 < 6x + 5
+
+-4 < 6x
+
+-2/3 < x
+
+x > -2/3
+
+Exemplo 2:
+
+x² - 5x + 6 <= 0
+
+Exemplo 3:
+
+x³ + 3x² > 4x
+
+Valor absoluto: Modulo
+
+Exemplo 4:
+
+|2x - 5| = 3
+
+Exemplo 5:
+
+|x - 5| < 2
+
+Exemplo 6:
+
+|3x + 2| >= 4
+
+Função linear
+
+
+

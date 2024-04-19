@@ -1,0 +1,39 @@
+        -CREATE
+        -DROP ----- TABLE../DATABASE
+        -ALTER
+
+DLL -> Definição dos Dados
+        ->SQL
+DML -> Manipulação de Dados
+        
+        -SELECT
+        -UPDATE
+        -INSERT
+        -DELETE
+
+PAIS              CIDADE
+
+ID  NOME    ->    ID  ID_PAIS CIDADE
+
+40  BRASIL        1   40  JATAI
+
+Restrição de integridade: é quando não pode repetição em uma instancia  
+
+DELETE FROM MATRICULADO AS MATRICULADO
+
+INNER JOIN ALUNOS AS AL ON MT.ID ALUNO = AL.ID_ALUNO
+
+RESTRIÇãO        PESSOA                 ID RESTRIÇÃO
+            ->                      ->  *
+ID               ID  NAME  *  IDADE
+
+
+PESSOA                      LOGIN
+             CONSTRAINT
+ID  NOME    ---------->     ID  ID_PESSOA   DATA_HORA
+32                          1   NULL
+                            2
+                            3
+                            .
+                            .
+                            .

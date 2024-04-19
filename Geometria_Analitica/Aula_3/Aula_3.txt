@@ -1,0 +1,158 @@
+Exemplo: (a) Contrua um sistema de cordenadas de modo que se tenha
+P(5,2) e Q(-4,-1)
+
+(b) Determine d(P,Q)
+
+(c) d(P,Q) depende do sistema de coordenadas?
+
+Exemplo: Um campo de futebol tem 60m de comprimento por 40m de largura
+
+Construa um sistema de coordenadas dos seguintes pontos:
+
+(a) Dos quatro cantos dos campos?
+
+(b) Do centro do campo?
+
+----------------------
+Canto1 = (0,0)
+Canto2 = (0,40)
+Canto3 = (60,40)
+Canto4 = (60,0)
+
+Centro = (30,20)
+----------------------
+Canto1 = (-5,-10)
+Canto2 = (-5,30)
+Canto3 = (55,30)
+Canto4 = (55,-10)
+
+Centro = (25,-10)
+----------------------
+
+Vetores no Plano
+
+Vimos que a cada por ordenado (x,y) corresponde um ponto no Plano Se (x, y) diferente (0,0), além do ponto podemos támbem fazer corresponde ao par (x,y)
+uma seta, como na figura abaixo
+
+./imagem1
+
+Assim o par ordenado (x,y) diferente (0,0) pode ser representado graficamente por um ponto ou uma seta. Quando utilizamos seta para representar (x,y), podemos associar
+a este par ordenado, direção sentido e módulo(comprimento do vetor). A direção e o sentido do par (x,y) são respectivamente, a direção e o sentido da seta que o representa
+
+O módulo do par (x, y) é o número
+
+sqrt(x²+y²)
+
+Que é o comprimento de seta
+
+Em geral, um objeto ao qual se pode associar os conceitos de direção, sentido, módulo é chamdado um vetor
+
+Exemplo: V = (1,2) é um vetor, módulo = sqrt(5)
+./imagem2
+
+Inversamente, uma seta no Plano, como a figura abaixo
+
+.imagem3
+
+Direção = Angulo
+
+OBS:
+
+Ao par ordenado (0,0) não se pode associar os conceitos de direção e sentido, como no exemplo anterior. Contudo
+O = (0,0) é chamado de vetor nulo
+
+Há casos em que representamos graficamente um vetor por uma seta que não parte necessariamente da origem. Por exemplo, os pontos A(x1, y1), B(x2, y2) determinam o vetor
+__
+AB = (x2, y2) - (x1, y1) = (x2 - x1, y2 - y1)
+
+./imagem4
+
+OBS: Do que foi discutido, conclui-se que para representar graficamente um vetor usa-se
+uma reta. O lugar onde esta seta é colocacada depende do problema que está sendo considerado
+
+Operações Com Vetores
+
+Sejam U=(x,y), V=(x2,y2) e r E R
+
+Definimos:
+
+(a) u + v = (x1 + x2, y1 + y2)
+(b) k * u = (k * x1, k * y1)
+
+A operação que a cada par de vetores  u e v faz corresponder o vetor u + v, definido acima chama-se adição de vetores e k . u é a multiplicação de um vetor por um escalar
+(número). 
+
+Propriedades: Sejam u, v, w vetores quaisquer e k1, k2 E R:
+
+(A1) U + V = V + U
+
+(A2) U + (V + W) = (U + V) + W
+
+(A3) U + O = U, onde O = (0,0) é o vetor nulo
+
+(M1) K1(U + V) = K1.U + K1.V
+
+(M2) (K1 + K2) . U = K1.U + K1.u
+
+(M3) K1.(K2.U) = (K1.K2).U
+
+(M4) 1.U = U e 0.U = 0
+
+Definição: O vetor (-1).U é indicado por -U e chamado de oposto de U.
+
+OBS: Também, indicamos V + (-U) por V - U.
+
+OBS: O vetor K.U tem a mesma direção de U, isto é, U e KU são representados por setas paralelas. de K > 0, os sentidos de U e KU concidem. Se K < 0, o sentido de KU é o oposto de U. 
+Além disso, os módulos de U e KU estão relacionados por ||KU|| = |KU|.||U|| onde a barra dupla indica módulo do vetor e a simples, modulo de números relacionados
+
+MODULO = COMPRIMENTO = NORMA
+
+De fato, seja U = (x1, y1) e k E R,
+então
+
+||KU|| = ||(K.x1, K.y1)||
+       = sqrt((K.x1)² + (K.y1)²)
+       = sqrt(K².(x1² + y1²))
+       = sqrt(K²).sqrt(x1² + y1²)
+       = |K|.||U||
+
+Assim dos extremos, temos que ||KU|| =|K|||U||
+
+Proposição: Sejam U e V vetores e K um número real.
+
+Então:
+
+(a) KU = 0 => K=0 ou U=0
+(b) ||U|| >= 0 e ||U|| <=> U = 0
+(c) ||U+V|| <= ||U|| + ||V||
+
+Aplicações:
+
+Vetor Deslocamento:
+
+Se uma particula move-se de um ponto A (x1, y1) para um ponto B (x2, y2), O
+vetor __
+      AB = (x2-x1, y2-y1) é chamado de veotr Deslocamento da Párticula
+
+Suponhamos que uma partícula mova-se do ponto A(x1,y2) para o ponto B(x2,y2) e depois para C (x3,y3). Então,
+o vetor deslocamento total da párticula é __
+                                          AC = (x3 - x1, y3 - y1)
+
+e ainda, temos que:
+
+__   __   __
+AC = AB + BC
+
+De fato,
+ __   __
+ AB + BC = (x2-x1, y2-y1) + (x3-x2, y3-y2)
+   -->
+ = AC
+
+ Exemplo: Um carro move-se em linha reta 5km na direção norte e, em seguida também em linha reta, 5km na direção leste. Qual foi o deslocamento?
+
+
+
+
+
+

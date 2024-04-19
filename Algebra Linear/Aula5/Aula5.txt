@@ -1,0 +1,167 @@
+1 0 0 -1/2
+0 1 0 3         Forma escada
+0 0 1 -1/2
+0 0 0 0
+
+Sistema de M equações e n variáveis, assim
+
+m=4
+n=3
+
+Posto da Matriz ampliada: linhas não nulas
+
+Pa = 3
+
+Posto da matriz dos coefientes: linhas não nulas
+
+Pc = 3
+
+Exemplo
+
+1 0 0 1/2
+0 1 1 -1/2
+0 0 0 1/2
+
+Pa = 3
+
+Pc = 2
+
+Denifição - Dada uma matriz de A m x n seja B m x n a matriz linha reduzida à forma escada, linha equivalente a A. O posto de a
+denotado por p, é o número de linhas não nulas de B. A nulidade de A é o numero n-p
+
+Exemplo 1 - Desejamos encontrar o posto e a nulidade de A, onde
+    1 2 1 0
+A = -1 0 3 5
+    1 -2 1 1
+
+(1°) Forma escada
+
+L1 + L2 -> L2
+L1 - L3 -> L3
+
+->
+
+1 2 1 0
+0 2 4 5
+0 4 0 -1
+
+Sua matriz
+
+X1	X2	X3	b
+1	1	2	1	0
+2	-1	0	3	5
+3	1	-2	1	1
+Encontre o pivô na 1ª coluna na 1ª linha
+
+X1	X2	X3	b
+1	1	2	1	0
+2	-1	0	3	5
+3	1	-2	1	1
+Multiplique a 1ª linha por -1
+
+X1	X2	X3	b
+1	-1	-2	-1	0
+2	-1	0	3	5
+3	1	-2	1	1
+Subtraia a 1ª linha pela 2ª linha
+
+X1	X2	X3	b
+1	-1	-2	-1	0
+2	0	2	4	5
+3	1	-2	1	1
+Multiplique a 1ª linha por -1
+
+X1	X2	X3	b
+1	1	2	1	0
+2	0	2	4	5
+3	1	-2	1	1
+Subtraia a 1ª linha pela 3ª linha e recupere-a
+
+X1	X2	X3	b
+1	1	2	1	0
+2	0	2	4	5
+3	0	-4	0	1
+Faça o pivô na 2ª coluna dividindo a 2ª linha por 2
+
+X1	X2	X3	b
+1	1	2	1	0
+2	0	1	2	5/2
+3	0	-4	0	1
+Multiplique a 2ª linha por 2
+
+X1	X2	X3	b
+1	1	2	1	0
+2	0	2	4	5
+3	0	-4	0	1
+Subtraia a 2ª linha pela 1ª linha e recupere-a
+
+X1	X2	X3	b
+1	1	0	-3	-5
+2	0	1	2	5/2
+3	0	-4	0	1
+Multiplique a 2ª linha por -4
+
+X1	X2	X3	b
+1	1	0	-3	-5
+2	0	-4	-8	-10
+3	0	-4	0	1
+Subtraia a 2ª linha pela 3ª linha e recupere-a
+
+X1	X2	X3	b
+1	1	0	-3	-5
+2	0	1	2	5/2
+3	0	0	8	11
+Faça o pivô na 3ª coluna dividindo a 3ª linha por 8
+
+X1	X2	X3	b
+1	1	0	-3	-5
+2	0	1	2	5/2
+3	0	0	1	11/8
+Multiplique a 3ª linha por -3
+
+X1	X2	X3	b
+1	1	0	-3	-5
+2	0	1	2	5/2
+3	0	0	-3	-33/8
+Subtraia a 3ª linha pela 1ª linha e recupere-a
+
+X1	X2	X3	b
+1	1	0	0	-7/8
+2	0	1	2	5/2
+3	0	0	1	11/8
+Multiplique a 3ª linha por 2
+
+X1	X2	X3	b
+1	1	0	0	-7/8
+2	0	1	2	5/2
+3	0	0	2	11/4
+Subtraia a 3ª linha pela 2ª linha e recupere-a
+
+X1	X2	X3	b
+1	1	0	0	-7/8
+2	0	1	0	-1/4
+3	0	0	1	11/8
+
+Assim o posto de A e p = 3
+
+e a nulidade é n - p = 4 - 3 = 1
+
+Soluções de um Sistema
+
+Um sistema de equações lineares de m equações e n incognitas poderá ter 
+(i) uma única solução 
+(ii) infinitas soluções 
+(iii) nenhuma solução
+
+No caso (i), dizemos que o sistema é possivel (compativel) e determinado.
+No caso (ii), dizemos que o sistema é possivel e inderteminado.
+E no caso (iii), dizemos que o sistema é impossivel (incompatível).
+
+
+
+
+
+
+
+
+

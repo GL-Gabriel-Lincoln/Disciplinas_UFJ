@@ -1,0 +1,3 @@
+Procurar os Comando SQL para Bloquear uma tabela
+
+Usar Sakila

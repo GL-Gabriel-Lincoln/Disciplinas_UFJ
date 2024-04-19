@@ -1,0 +1,28 @@
+1.Tipo dados compostos e funções
+
+2. Atributo Necessário: Em todas as funções de um TAD deve receber 
+pelo menos um atributo que é a estrutura de dados específica 
+sobre a qual ela opera. Isso permite que as funções manipulem 
+os dados de maneira correta e segura.
+
+3.
+typedef struct {
+    int *elements;
+    int size;
+} Vetor;
+
+void inicializaVetor(Vetor *v, int size);
+void insereElemento(Vetor *v, int element);
+void removeElemento(Vetor *v, int element);
+int obtemElemento(Vetor *v, int position);
+
+4. typedef struct {
+    char *characters;
+    int length;
+} String;
+
+void inicializaString(String *s, char *str);
+void concatenaString(String *s1, String *s2);
+int comparaString(String *s1, String *s2);
+
+5. Pode ser feita de dois jeitos: com Alocação estática definindo a váriavel do TAD e Alocação Dinamica usando malloc ou calloc
