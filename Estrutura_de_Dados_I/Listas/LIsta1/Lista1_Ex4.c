@@ -8,7 +8,7 @@ typedef struct
     float test[3];
 } Student;
 
-void lerAluno(Student *student) {
+void readStudent(Student *student) {
     printf("Digite o nome do aluno: ");
     fgets(student->name, 81, stdin);
 
@@ -24,16 +24,16 @@ void lerAluno(Student *student) {
     }
 }
 
-float calcularMedia(Student student) {
+float calculateAverage(Student student) {
     return (student.test[0] + student.test[1] + student.test[2]) / 3;
 }
 
-void imprimirCadastro(Student student) {
+void printRegistration(Student student) {
     printf("Nome: %s", student.name);
     printf("Matricula: %s", student.registration);
     printf("Turma: %c\n", student.class);
     printf("Notas: %.2f %.2f %.2f\n", student.test[0], student.test[1], student.test[2]);
-    printf("Media: %.2f\n", calcularMedia(student));
+    printf("Media: %.2f\n", calculateAverage(student));
 }
 
 float calculateClassAverage(Student students[], int num_students, char class) {
@@ -41,7 +41,7 @@ float calculateClassAverage(Student students[], int num_students, char class) {
     int count = 0;
     for (int i = 0; i < num_students; i++) {
         if (students[i].class == class) {
-            total += calcularMedia(students[i]);
+            total += calculateAverage(students[i]);
             count++;
         }
     }
@@ -54,7 +54,7 @@ int main() {
 
     for (int i = 0; i < num_students; i++) {
         printf("Digite os dados do aluno %d:\n", i+1);
-        lerAluno(&students[i]);
+        readStudent(&students[i]);
         getchar();
     }
 
