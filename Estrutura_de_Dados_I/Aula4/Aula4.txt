@@ -1,0 +1,32 @@
+Torre de Ranoy
+
+pilha é vetor
+
+0  1  2  3 4 5 6
+10 20 30 40
+
+variavel de controle = topo
+
+topo = -1
+
+topo = i++
+
+topo++
+
+pilha[topo] = x;
+
+pilha está cheia quando o valor dela for igual ao valor máximo do vetor
+
+topo == max - 1;
+
+topo--;
+
+Pilha vazia()
+
+topo == -1
+
+pilha auxiliar de mesmo tamanho
+
+problema da palavra palindrome
+
+arranjo = vetor

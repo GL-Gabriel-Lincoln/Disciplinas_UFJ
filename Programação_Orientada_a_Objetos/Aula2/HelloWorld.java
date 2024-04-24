@@ -1,4 +1,4 @@
-package Disciplinas_UFJ.Programação_Orientada_a_Objetos.Aula2;
+package Programação_Orientada_a_Objetos.Aula2;
 
 public class HelloWorld {
     public static void main(String[] args) {

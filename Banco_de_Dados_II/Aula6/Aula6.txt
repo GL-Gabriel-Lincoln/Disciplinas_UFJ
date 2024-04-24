@@ -1,0 +1,12 @@
+(1) Quantos paises existem? 109
+(2) Destes, quantos possuem estados cadastrados? 106
+(3) Quantos estados cada pais possue?
+(4) Qual pais possue mais estados cadastrados? Russia
+(5) Quais paises não tem estado cadastrado?
+(6) Quais pessoas não tem endereço cadastrado?
+
+Faça enquanto -> Fim-enquanto
+
+While Do -> Do
+
+Group by
