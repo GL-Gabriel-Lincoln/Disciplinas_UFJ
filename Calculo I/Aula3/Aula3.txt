@@ -1,0 +1,41 @@
+1) Dado que f e g estão definidas por f(x)=raix(x) e g(x)= x²-1 determine:
+
+a) fof b) gog c) fog d) gof
+
+encontrar também o dominio da função composta em cada parte.
+
+Vamos calcular as funções compostas e seus domínios:
+
+a) f(f(x)) = f(raiz(x)) = raiz(raiz(x)) O domínio de f(f(x)) é x >= 0, pois a raiz quadrada só é definida para números não negativos.
+
+b) g(g(x)) = g(x²-1) = (x²-1)²-1 = x^4 - 2x² + 1 - 1 = x^4 - 2x² O domínio de g(g(x)) é todos os números reais, pois qualquer número real pode ser elevado ao quadrado.
+
+c) f(g(x)) = f(x²-1) = raiz(x²-1) O domínio de f(g(x)) é x²-1 >= 0, ou seja, x >= 1 ou x <= -1, pois a raiz quadrada só é definida para números não negativos.
+
+d) g(f(x)) = g(raiz(x)) = (raiz(x))² - 1 = x - 1 O domínio de g(f(x)) é x >= 0, pois a raiz quadrada só é definida para números não negativos.
+
+2) Resolva a equação 
+
+|3x+8/2x-3| = 4
+
+Função trigonometrica
+
+1) sen0 = 0
+
+2) cos0 = 1
+
+3) Quaisquer que sejam os reais a e b.
+
+sen (a+-b) = sen a cos b +- sen b cos a
+
+4) Quaisquer que sejam os reais a e b.
+cos(a+b) = cos acosb
+
+Função Exponencial
+
+Seja a > 0, b > 0, x e y reais quaisquer, vale as seguintes propriedades:
+
+1) a^x . a^y = a^a+y
+2) (a^x)^y = a^xy
+3) (ab)^x = a^x . b^y
+4) se a > 1 e x < y, então a^x < a^y estritamente o crescente
