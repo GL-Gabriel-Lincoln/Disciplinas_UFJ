@@ -1,0 +1,7 @@
+Matriz Adejunta e Matriz inversa
+
+Exemplo - A = 2 1 0
+             -3 1 4
+              1 6 5
+
+Primeiro cofator do Elemento a11 da matriz A é dada por 
