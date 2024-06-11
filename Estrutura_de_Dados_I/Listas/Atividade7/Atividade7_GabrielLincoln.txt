@@ -1,0 +1,15 @@
+Fila Estática
+
+A fila estática é uma estrutura de dados que permite que os elementos sejam
+adicionados e removidos de uma lista ordenada. Ela é implementada com um
+array fixo de tamanho MAX_SIZE, que é definido no início do programa.
+A fila estática é útil quando o tamanho da fila é conhecido com
+antecedência e não precisa ser alterado durante a execução do programa.
+
+Fila Dinâmica
+
+A fila dinâmica é uma estrutura de dados que permite que o tamanho da fila
+seja ajustado dinamicamente, à medida que os elementos são adicionados e
+removidos. Ela é implementada com alocação dinâmica de memória com ponteiros,
+o que permite criar uma fila com tamanho variável, evitando a limitação do
+tamanho fixo da fila estática.
